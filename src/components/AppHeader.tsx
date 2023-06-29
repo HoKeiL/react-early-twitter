@@ -6,12 +6,14 @@ function AppHeader(): JSX.Element {
       <h2>twitter</h2>
       <nav>
         <NavItem label={"updates"} />
+        <span> | </span>
         <NavItem label={"archive"} />
-        <a href="#">preferences</a>
         <span> | </span>
-        <a href="#">help</a>
+        <NavItem label={"preferences"} />
         <span> | </span>
-        <a href="#">sign-out</a>
+        <NavItem label={"help"} />
+        <span> | </span>
+        <NavItem label={"sign-out"} />
       </nav>
     </header>
   );
