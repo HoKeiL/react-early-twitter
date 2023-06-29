@@ -1,7 +1,5 @@
 import StatusItem from "./StatusItem";
 
-
-
 function FriendStatuses(): JSX.Element {
   return (
     <section>
